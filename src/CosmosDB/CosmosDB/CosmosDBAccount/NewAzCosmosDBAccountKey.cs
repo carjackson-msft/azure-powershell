@@ -23,6 +23,7 @@ using Microsoft.Azure.Management.Internal.Resources.Utilities.Models;
 
 namespace Microsoft.Azure.Commands.CosmosDB
 {
+    [GenericBreakingChange("Output type for -Type ConnectionStrings will be changed to List<DatabaseAccountConnectionString> in next major version.")]
     [Cmdlet(VerbsCommon.New, ResourceManager.Common.AzureRMConstants.AzureRMPrefix + "CosmosDBAccountKey", DefaultParameterSetName = NameParameterSet, SupportsShouldProcess = true), OutputType(typeof(string))]
     public class NewAzCosmosDBAccountKey : AzureCosmosDBCmdletBase
     {
