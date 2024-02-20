@@ -40,9 +40,4 @@ output-folder: Generated
 
 namespace: Microsoft.Azure.Management.CosmosDB
 
-directive:
-  - from: managedCassandra.json
-    where: $.parameters.forceDeallocate
-    transform: >
-        $['type'] = 'string';
 ```
