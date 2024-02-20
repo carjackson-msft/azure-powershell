@@ -177,7 +177,7 @@ namespace Microsoft.Azure.Commands.CosmosDB
 
             if (IpRule != null && IpRule.Length > 0)
             {
-                databaseAccountCreateUpdateParameters.IPRules = base.PopulateIpRules(IpRule);
+                databaseAccountCreateUpdateParameters.IpRules = base.PopulateIpRules(IpRule);
             }
 
             if (KeyVaultKeyUri != null)
