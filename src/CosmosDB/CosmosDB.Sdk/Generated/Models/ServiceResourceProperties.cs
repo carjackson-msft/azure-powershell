@@ -32,14 +32,14 @@ namespace Microsoft.Azure.Management.CosmosDB.Models
         /// </param>
 
         /// <param name="instanceSize">Instance type for the service.
-        /// Possible values include: &#39;Cosmos.D4s&#39;, &#39;Cosmos.D8s&#39;, &#39;Cosmos.D16s&#39;</param>
+        /// Possible values include: 'Cosmos.D4s', 'Cosmos.D8s', 'Cosmos.D16s'</param>
 
         /// <param name="instanceCount">Instance count for the service.
         /// </param>
 
         /// <param name="status">Describes the status of a service.
-        /// Possible values include: &#39;Creating&#39;, &#39;Running&#39;, &#39;Updating&#39;, &#39;Deleting&#39;,
-        /// &#39;Error&#39;, &#39;Stopped&#39;</param>
+        /// Possible values include: 'Creating', 'Running', 'Updating', 'Deleting',
+        /// 'Error', 'Stopped'</param>
         public ServiceResourceProperties(System.Collections.Generic.IDictionary<string, object> additionalProperties = default(System.Collections.Generic.IDictionary<string, object>), System.DateTime? creationTime = default(System.DateTime?), string instanceSize = default(string), int? instanceCount = default(int?), string status = default(string))
 
         {

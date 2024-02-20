@@ -13,11 +13,7 @@ namespace Microsoft.Azure.Management.CosmosDB
     public static partial class RestorableSqlResourcesOperationsExtensions
     {
         /// <summary>
-        /// Return a list of database and container combo that exist on the account at
-        /// the given timestamp and location. This helps in scenarios to validate what
-        /// resources exist at given timestamp and location. This API requires
-        /// &#39;Microsoft.DocumentDB/locations/restorableDatabaseAccounts/.../read&#39;
-        /// permission.
+        /// Return a list of database and container combo that exist on the account at the given timestamp and location. This helps in scenarios to validate what resources exist at given timestamp and location. This API requires &#39;Microsoft.DocumentDB/locations/restorableDatabaseAccounts/.../read&#39; permission.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -40,11 +36,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Return a list of database and container combo that exist on the account at
-        /// the given timestamp and location. This helps in scenarios to validate what
-        /// resources exist at given timestamp and location. This API requires
-        /// &#39;Microsoft.DocumentDB/locations/restorableDatabaseAccounts/.../read&#39;
-        /// permission.
+        /// Return a list of database and container combo that exist on the account at the given timestamp and location. This helps in scenarios to validate what resources exist at given timestamp and location. This API requires &#39;Microsoft.DocumentDB/locations/restorableDatabaseAccounts/.../read&#39; permission.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.

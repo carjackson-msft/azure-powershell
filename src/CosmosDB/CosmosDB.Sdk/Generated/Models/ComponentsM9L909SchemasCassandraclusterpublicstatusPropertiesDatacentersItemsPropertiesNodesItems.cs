@@ -25,8 +25,8 @@ namespace Microsoft.Azure.Management.CosmosDB.Models
         /// </param>
 
         /// <param name="state">The state of the node in Cassandra ring.
-        /// Possible values include: &#39;Normal&#39;, &#39;Leaving&#39;, &#39;Joining&#39;, &#39;Moving&#39;,
-        /// &#39;Stopped&#39;</param>
+        /// Possible values include: 'Normal', 'Leaving', 'Joining', 'Moving',
+        /// 'Stopped'</param>
 
         /// <param name="status">
         /// </param>
@@ -77,10 +77,7 @@ namespace Microsoft.Azure.Management.CosmosDB.Models
         /// <param name="cpuUsage">A float representing the current system-wide CPU utilization as a
         /// percentage.
         /// </param>
-
-        /// <param name="isLatestModel">If node has been updated to latest model
-        /// </param>
-        public ComponentsM9L909SchemasCassandraclusterpublicstatusPropertiesDatacentersItemsPropertiesNodesItems(string address = default(string), string state = default(string), string status = default(string), string cassandraProcessStatus = default(string), string load = default(string), System.Collections.Generic.IList<string> tokens = default(System.Collections.Generic.IList<string>), int? size = default(int?), string hostId = default(string), string rack = default(string), string timestamp = default(string), long? diskUsedKb = default(long?), long? diskFreeKb = default(long?), long? memoryUsedKb = default(long?), long? memoryBuffersAndCachedKb = default(long?), long? memoryFreeKb = default(long?), long? memoryTotalKb = default(long?), double? cpuUsage = default(double?), bool? isLatestModel = default(bool?))
+        public ComponentsM9L909SchemasCassandraclusterpublicstatusPropertiesDatacentersItemsPropertiesNodesItems(string address = default(string), string state = default(string), string status = default(string), string cassandraProcessStatus = default(string), string load = default(string), System.Collections.Generic.IList<string> tokens = default(System.Collections.Generic.IList<string>), int? size = default(int?), string hostId = default(string), string rack = default(string), string timestamp = default(string), long? diskUsedKb = default(long?), long? diskFreeKb = default(long?), long? memoryUsedKb = default(long?), long? memoryBuffersAndCachedKb = default(long?), long? memoryFreeKb = default(long?), long? memoryTotalKb = default(long?), double? cpuUsage = default(double?))
 
         {
             this.Address = address;
@@ -100,7 +97,6 @@ namespace Microsoft.Azure.Management.CosmosDB.Models
             this.MemoryFreeKb = memoryFreeKb;
             this.MemoryTotalKb = memoryTotalKb;
             this.CpuUsage = cpuUsage;
-            this.IsLatestModel = isLatestModel;
             CustomInit();
         }
 
@@ -220,11 +216,5 @@ namespace Microsoft.Azure.Management.CosmosDB.Models
         /// </summary>
         [Newtonsoft.Json.JsonProperty(PropertyName = "cpuUsage")]
         public double? CpuUsage {get; set; }
-
-        /// <summary>
-        /// Gets or sets if node has been updated to latest model
-        /// </summary>
-        [Newtonsoft.Json.JsonProperty(PropertyName = "isLatestModel")]
-        public bool? IsLatestModel {get; set; }
     }
 }

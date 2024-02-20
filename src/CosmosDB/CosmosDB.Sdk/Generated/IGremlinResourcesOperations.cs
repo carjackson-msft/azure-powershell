@@ -14,12 +14,10 @@ namespace Microsoft.Azure.Management.CosmosDB
     public partial interface IGremlinResourcesOperations
     {
         /// <summary>
-        /// Lists the Gremlin databases under an existing Azure Cosmos DB database
-        /// account.
+        /// Lists the Gremlin databases under an existing Azure Cosmos DB database account.
         /// </summary>
         /// <remarks>
-        /// Lists the Gremlin databases under an existing Azure Cosmos DB database
-        /// account.
+        /// Lists the Gremlin databases under an existing Azure Cosmos DB database account.
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -42,12 +40,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<System.Collections.Generic.IEnumerable<GremlinDatabaseGetResults>>> ListGremlinDatabasesWithHttpMessagesAsync(string resourceGroupName, string accountName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Gets the Gremlin databases under an existing Azure Cosmos DB database
-        /// account with the provided name.
+        /// Gets the Gremlin databases under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <remarks>
-        /// Gets the Gremlin databases under an existing Azure Cosmos DB database
-        /// account with the provided name.
+        /// Gets the Gremlin databases under an existing Azure Cosmos DB database account with the provided name.
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -131,12 +127,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationHeaderResponse<GremlinResourcesDeleteGremlinDatabaseHeaders>> DeleteGremlinDatabaseWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Gets the RUs per second of the Gremlin database under an existing Azure
-        /// Cosmos DB database account with the provided name.
+        /// Gets the RUs per second of the Gremlin database under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <remarks>
-        /// Gets the RUs per second of the Gremlin database under an existing Azure
-        /// Cosmos DB database account with the provided name.
+        /// Gets the RUs per second of the Gremlin database under an existing Azure Cosmos DB database account with the provided name.
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -177,8 +171,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB database name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// database.
+        /// The RUs per second of the parameters to provide for the current Gremlin database.
         /// </param>
         /// <param name='customHeaders'>
         /// The headers that will be added to request.
@@ -195,12 +188,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesUpdateGremlinDatabaseThroughputHeaders>> UpdateGremlinDatabaseThroughputWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, ThroughputSettingsUpdateParameters updateThroughputParameters, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -226,12 +217,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesMigrateGremlinDatabaseToAutoscaleHeaders>> MigrateGremlinDatabaseToAutoscaleWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -382,12 +371,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationHeaderResponse<GremlinResourcesDeleteGremlinGraphHeaders>> DeleteGremlinGraphWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, string graphName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB
-        /// database account with the provided name.
+        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <remarks>
-        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB
-        /// database account with the provided name.
+        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB database account with the provided name.
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -434,8 +421,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB graph name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// graph.
+        /// The RUs per second of the parameters to provide for the current Gremlin graph.
         /// </param>
         /// <param name='customHeaders'>
         /// The headers that will be added to request.
@@ -452,12 +438,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesUpdateGremlinGraphThroughputHeaders>> UpdateGremlinGraphThroughputWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, string graphName, ThroughputSettingsUpdateParameters updateThroughputParameters, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -486,12 +470,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesMigrateGremlinGraphToAutoscaleHeaders>> MigrateGremlinGraphToAutoscaleWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, string graphName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -628,8 +610,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB database name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// database.
+        /// The RUs per second of the parameters to provide for the current Gremlin database.
         /// </param>
         /// <param name='customHeaders'>
         /// The headers that will be added to request.
@@ -646,12 +627,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesUpdateGremlinDatabaseThroughputHeaders>> BeginUpdateGremlinDatabaseThroughputWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, ThroughputSettingsUpdateParameters updateThroughputParameters, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -677,12 +656,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesMigrateGremlinDatabaseToAutoscaleHeaders>> BeginMigrateGremlinDatabaseToAutoscaleWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -790,8 +767,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB graph name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// graph.
+        /// The RUs per second of the parameters to provide for the current Gremlin graph.
         /// </param>
         /// <param name='customHeaders'>
         /// The headers that will be added to request.
@@ -808,12 +784,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesUpdateGremlinGraphThroughputHeaders>> BeginUpdateGremlinGraphThroughputWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, string graphName, ThroughputSettingsUpdateParameters updateThroughputParameters, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -842,12 +816,10 @@ namespace Microsoft.Azure.Management.CosmosDB
         System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<ThroughputSettingsGetResults,GremlinResourcesMigrateGremlinGraphToAutoscaleHeaders>> BeginMigrateGremlinGraphToAutoscaleWithHttpMessagesAsync(string resourceGroupName, string accountName, string databaseName, string graphName, System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>> customHeaders = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <remarks>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </remarks>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.

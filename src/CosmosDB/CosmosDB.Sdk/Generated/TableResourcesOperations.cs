@@ -282,8 +282,7 @@ namespace Microsoft.Azure.Management.CosmosDB
 
         }
         /// <summary>
-        /// Gets the Tables under an existing Azure Cosmos DB database account with the
-        /// provided name.
+        /// Gets the Tables under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -589,8 +588,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Gets the RUs per second of the Table under an existing Azure Cosmos DB
-        /// database account with the provided name.
+        /// Gets the RUs per second of the Table under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.

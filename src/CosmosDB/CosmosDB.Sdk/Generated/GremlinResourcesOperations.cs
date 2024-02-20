@@ -39,8 +39,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         public CosmosDBManagementClient Client { get; private set; }
 
         /// <summary>
-        /// Lists the Gremlin databases under an existing Azure Cosmos DB database
-        /// account.
+        /// Lists the Gremlin databases under an existing Azure Cosmos DB database account.
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -283,8 +282,7 @@ namespace Microsoft.Azure.Management.CosmosDB
 
         }
         /// <summary>
-        /// Gets the Gremlin databases under an existing Azure Cosmos DB database
-        /// account with the provided name.
+        /// Gets the Gremlin databases under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -590,8 +588,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Gets the RUs per second of the Gremlin database under an existing Azure
-        /// Cosmos DB database account with the provided name.
+        /// Gets the RUs per second of the Gremlin database under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -856,8 +853,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB database name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// database.
+        /// The RUs per second of the parameters to provide for the current Gremlin database.
         /// </param>
         /// <param name='customHeaders'>
         /// Headers that will be added to request.
@@ -1498,8 +1494,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB
-        /// database account with the provided name.
+        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -1777,8 +1772,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB graph name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// graph.
+        /// The RUs per second of the parameters to provide for the current Gremlin graph.
         /// </param>
         /// <param name='customHeaders'>
         /// Headers that will be added to request.
@@ -2422,8 +2416,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB database name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// database.
+        /// The RUs per second of the parameters to provide for the current Gremlin database.
         /// </param>
         /// <param name='customHeaders'>
         /// Headers that will be added to request.
@@ -2695,8 +2688,7 @@ namespace Microsoft.Azure.Management.CosmosDB
 
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -2962,8 +2954,7 @@ namespace Microsoft.Azure.Management.CosmosDB
 
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -3793,8 +3784,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         /// Cosmos DB graph name.
         /// </param>
         /// <param name='updateThroughputParameters'>
-        /// The RUs per second of the parameters to provide for the current Gremlin
-        /// graph.
+        /// The RUs per second of the parameters to provide for the current Gremlin graph.
         /// </param>
         /// <param name='customHeaders'>
         /// Headers that will be added to request.
@@ -4073,8 +4063,7 @@ namespace Microsoft.Azure.Management.CosmosDB
 
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.
@@ -4350,8 +4339,7 @@ namespace Microsoft.Azure.Management.CosmosDB
 
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <param name='resourceGroupName'>
         /// The name of the resource group. The name is case insensitive.

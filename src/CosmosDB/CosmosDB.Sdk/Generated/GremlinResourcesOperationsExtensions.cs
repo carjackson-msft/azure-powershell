@@ -13,8 +13,7 @@ namespace Microsoft.Azure.Management.CosmosDB
     public static partial class GremlinResourcesOperationsExtensions
     {
         /// <summary>
-        /// Lists the Gremlin databases under an existing Azure Cosmos DB database
-        /// account.
+        /// Lists the Gremlin databases under an existing Azure Cosmos DB database account.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -31,8 +30,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Lists the Gremlin databases under an existing Azure Cosmos DB database
-        /// account.
+        /// Lists the Gremlin databases under an existing Azure Cosmos DB database account.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -54,8 +52,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Gets the Gremlin databases under an existing Azure Cosmos DB database
-        /// account with the provided name.
+        /// Gets the Gremlin databases under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -75,8 +72,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Gets the Gremlin databases under an existing Azure Cosmos DB database
-        /// account with the provided name.
+        /// Gets the Gremlin databases under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -191,8 +187,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Gets the RUs per second of the Gremlin database under an existing Azure
-        /// Cosmos DB database account with the provided name.
+        /// Gets the RUs per second of the Gremlin database under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -212,8 +207,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Gets the RUs per second of the Gremlin database under an existing Azure
-        /// Cosmos DB database account with the provided name.
+        /// Gets the RUs per second of the Gremlin database under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -283,8 +277,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -304,8 +297,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -330,8 +322,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -351,8 +342,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -575,8 +565,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB
-        /// database account with the provided name.
+        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -599,8 +588,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB
-        /// database account with the provided name.
+        /// Gets the Gremlin graph throughput under an existing Azure Cosmos DB database account with the provided name.
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -679,8 +667,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -703,8 +690,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -732,8 +718,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -756,8 +741,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -971,8 +955,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -992,8 +975,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin database from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -1018,8 +1000,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -1039,8 +1020,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin database from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -1218,8 +1198,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -1242,8 +1221,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to
-        /// autoscale
+        /// Migrate an Azure Cosmos DB Gremlin graph from manual throughput to autoscale
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -1271,8 +1249,7 @@ namespace Microsoft.Azure.Management.CosmosDB
             }
         }
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
@@ -1295,8 +1272,7 @@ namespace Microsoft.Azure.Management.CosmosDB
         }
 
         /// <summary>
-        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual
-        /// throughput
+        /// Migrate an Azure Cosmos DB Gremlin graph from autoscale to manual throughput
         /// </summary>
         /// <param name='operations'>
         /// The operations group for this extension method.
