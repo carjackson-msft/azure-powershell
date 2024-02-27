@@ -29,6 +29,7 @@
 - Restore-AzCosmosDBTable
 * Upgraded SDK `Azure.Security.KeyVault.Keys` TO 4.6.0-beta.1.
 * Added breaking change message for ListConnectionStrings changes
+* Added `DisableTtl` parameter to `Restore-AzCosmosDBAccount`.
 
 ## Version 1.14.0
 * Introduced Restore-AzCosmosDBSqlDatabase, Restore-AzCosmosDBSqlContainer to restore deleted database and containers in the same account for SQL.
